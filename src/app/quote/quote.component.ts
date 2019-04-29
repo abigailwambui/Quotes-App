@@ -9,9 +9,9 @@ import {Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes = [
-    new Quote('Read your Bible and pray everyday if you want to grow','By Mary Wanjuhi'),
-    new Quote('Haraka Haraka Haina Baraka','By Angela Wangari'),
-    new Quote('Smile!','By Kirk Franklin'),
+    new Quote('Read your Bible and pray everyday if you want to grow','By Mary Wanjuhi',new Date(2005,5,2) ),
+    new Quote('Haraka Haraka Haina Baraka','By Angela Wangari',new Date(2018,3,12) ),
+    new Quote('Smile!','By Kirk Franklin',new Date(2019,3,5) ),
   ]
 
   completeQuote(isComplete,index){
