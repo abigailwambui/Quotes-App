@@ -8,9 +8,7 @@ import {Quote} from './quote'
 })
 export class AppComponent {
     quotes = [
-      new Quote('Read your Bible and pray everyday if you want to grow'),
-      new Quote('Haraka Haraka Haina Baraka'),
-      new Quote('Smile!'),
+      
     ]
 
   }
