@@ -11,8 +11,8 @@
   <div class ="col-md-6">
   <ul>
 
-    <div class="cards" *ngFor='let quote of quotes;let i = index'>
-      <div class="cards">
+    <div class="card" *ngFor='let quote of quotes;let i = index'><br>
+      <div class="card">
       <h4 id="{{i}}" appHighlight>{{quote.name}} was added on {{quote.completeDate|date}}</h4>
       <br><button (click)='toogleDetails(i)'>Show Details</button>
       </div>
