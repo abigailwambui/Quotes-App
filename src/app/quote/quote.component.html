@@ -1,6 +1,6 @@
 <div style="text-align:center">
   <div class="container">
-    <div class="well">
+  <div class="well">
   <h1><strong> Quotes</strong></h1>
   <h2><strong> Get inspired!</strong></h2>
   </div>
@@ -14,6 +14,7 @@
       <div class="row" *ngIf="quote.showDescription">
       <app-quote-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
       </div>
+    </div>
   </ul>
     </div>
     <app-quote-form (addQuote)="addNewGoal($event)"></app-quote-form>
