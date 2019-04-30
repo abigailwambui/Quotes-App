@@ -6,11 +6,14 @@
   </div>
 
   <ul>
-    <div class="cards" *ngFor='let quote of quotes;let i = index'>
-      <li id="{{i}}" appHighlight>{{quote.name}} was added on {{quote.completeDate|date}}</li>
+    <div class="row" *ngFor='let quote of quotes;let i = index'>
+      <div class="row">
+      <h4 id="{{i}}" appHighlight>{{quote.name}} was added on {{quote.completeDate|date}}</h4>
       <br><button (click)='toogleDetails(i)'>Show Details</button>
       </div>
-      <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+      <div class="row" *ngIf="quote.showDescription">
+      <app-quote-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+      </div>
   </ul>
     </div>
     <app-quote-form (addQuote)="addNewGoal($event)"></app-quote-form>
