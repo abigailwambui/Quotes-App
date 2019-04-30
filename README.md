@@ -1,11 +1,13 @@
-#Quotes
+Quotes
 
 By Abigail Wambui
-Can be found live on:(http://asmaadan.github.io/Quotes)
+Can be found live on:(http://abigailwambui.github.io/Quotes)
+
 This project was generated with Angular CLI version 7.3.5.
+
 This particular application allows the user to:Create a new quote,upvote or downvote a quote and delete a quote.
 
-#Behavior Driven Development
+Behavior Driven Development
 
 *The program allows the user to view quotes submitted by other users.
 
@@ -17,13 +19,13 @@ This particular application allows the user to:Create a new quote,upvote or down
 
 
 
-#Installation
+Installation
+
 *Fork the repo
 
 *Clone to local computer using git.
 
 *Install Angular CLI
-
 
 *Install TypeScript
 
@@ -37,7 +39,8 @@ This particular application allows the user to:Create a new quote,upvote or down
 
 *Create a pull request
 
-#Technologies used:
+Technologies used:
+
 *Angular 7 Framework
 
 *TypeScript
