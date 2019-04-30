@@ -39,7 +39,7 @@ Installation
 
 *Create a pull request
 
-#Technologies used:
+Technologies used:
 
 *Angular 7 Framework
 
