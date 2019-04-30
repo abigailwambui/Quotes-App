@@ -13,6 +13,6 @@
       <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
   </ul>
     </div>
-    <app-quote-form></app-quote-form>
+    <app-quote-form (addQuote)="addNewGoal($event)"></app-quote-form>
 
   </div>
