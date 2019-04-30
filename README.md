@@ -1,7 +1,7 @@
 Quotes
 
 By Abigail Wambui
-Can be found live on:(http://abigailwambui.github.io/Quotes)
+Can be found live on:(http://abigailwambui.github.io/Quotes-App)
 
 This project was generated with Angular CLI version 7.3.5.
 
