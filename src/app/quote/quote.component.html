@@ -12,7 +12,7 @@
   <ul>
 
     <div class="cards" *ngFor='let quote of quotes;let i = index'>
-      <div class="row">
+      <div class="cards">
       <h4 id="{{i}}" appHighlight>{{quote.name}} was added on {{quote.completeDate|date}}</h4>
       <br><button (click)='toogleDetails(i)'>Show Details</button>
       </div>
